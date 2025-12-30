@@ -1,1 +1,62 @@
-
+{
+  "format_version": 2,
+  "header": {
+    "name": "食べ物アドオン",
+    "description": "新しい食料を追加します",
+    "uuid": "451037eb-caf8-491d-bc75-589a1e20a654",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "097c8ed9-c919-4972-a75f-f1b5621f8611",
+      "entry": "scripts/main.js",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "description": "新しい食料を追加します",
+      "type": "data",
+      "uuid": "9e167fc4-b2d9-4884-921c-4ed3f793e8e0",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "ffa868c0-c7bd-4f5b-b6d1-203813255735",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.15.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.1.0"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}
