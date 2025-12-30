@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:applpai"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "s",
+            "aa",
+            "e"
+        ],
+        "key": {
+            "a": {
+                "item": "minecraft:apple"
+            },
+            "s": {
+                "item": "minecraft:sugar"
+            },
+            "e": {
+                "item": "minecraft:egg"
+            }
+        },
+        "unlock": [
+            {
+                "context": "AlwaysUnlocked"
+            }
+        ],
+        "result": {
+            "item": "mc:applpai"
+        }
+    }
+}
