@@ -23,6 +23,6 @@ world.afterEvents.itemUse.subscribe(arg => {
             player.sendMessage(`§aレベルを ${levelAmount} 付与しました。`);
         }
     }).catch(err => {
-        console.error("§aUIの表示中にエラーが発生しました:", err);
+        console.error("UIの表示中にエラーが発生しました:", err);
     });
 });
