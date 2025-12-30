@@ -8,9 +8,9 @@
         "assume_symmetry": false,
         "priority": 1,
         "pattern": [
-            "s",
-            "aa",
-            "e"
+            " s ",
+            "aaa",
+            " e "
         ],
         "key": {
             "a": {
