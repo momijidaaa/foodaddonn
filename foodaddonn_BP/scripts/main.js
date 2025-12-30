@@ -1,19 +1,28 @@
-import * as server from "@minecraft/server";
+import { world, system, Player } from "@minecraft/server";
 import * as ui from "@minecraft/server-ui";
 
+world.afterEvents.itemUse.subscribe(arg => {
+    const player = arg.source;
 
-import { world, ItemStack, Player } from "@minecraft/server";
+    // アイテムがコンパスでない場合は処理を中断
+    if (arg.itemStack.typeId !== 'minecraft:compass') return;
 
-world.afterEvents.itemUse.subscribe((event) => {
-    const { source: player, itemStack } = event;
+    const form = new ui.ModalFormData();
+    form.title('経験値どれくらいほしい');
+    form.slider('追加するレベル', 0, 50, 1, 0);
 
-    if (itemStack.typeId === "minecraft:compass") {
-        
-        if (player instanceof Player) {
-            player.addExperience(10);
-            
-            player.sendMessage("§a経験値を10獲得しました！");
+    form.show(player).then(response => {
+        // フォームがキャンセル（閉じられた）された場合は何もしない
+        if (response.canceled) return;
+
+        const levelAmount = response.formValues[0];
+
+        // プレイヤーにレベルを付与
+        if (typeof levelAmount === "number" && levelAmount > 0) {
+            player.addLevels(levelAmount);
+            player.sendMessage(`§aレベルを ${levelAmount} 付与しました。`);
         }
-    }
+    }).catch(err => {
+        console.error("§aUIの表示中にエラーが発生しました:", err);
+    });
 });
-
