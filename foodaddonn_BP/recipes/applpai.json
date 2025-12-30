@@ -29,7 +29,8 @@
             }
         ],
         "result": {
-            "item": "mc:applpai"
+            "item": "mc:applpai",
+            "count": 1
         }
     }
 }
