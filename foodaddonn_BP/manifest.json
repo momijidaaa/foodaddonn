@@ -4,16 +4,8 @@
     "name": "食べ物アドオン",
     "description": "新しい食料を追加します",
     "uuid": "451037eb-caf8-491d-bc75-589a1e20a654",
-    "version": [
-      1,
-      0,
-      0
-    ],
-    "min_engine_version": [
-      1,
-      20,
-      0
-    ]
+    "version": [1,0,0],
+    "min_engine_version": [1,20,0]
   },
   "modules": [
     {
@@ -21,11 +13,7 @@
       "language": "javascript",
       "uuid": "097c8ed9-c919-4972-a75f-f1b5621f8611",
       "entry": "scripts/main.js",
-      "version": [
-        0,
-        1,
-        0
-      ]
+      "version": [0,1,0]
     },
     {
       "description": "新しい食料を追加します",
@@ -41,11 +29,7 @@
   "dependencies": [
     {
       "uuid": "ffa868c0-c7bd-4f5b-b6d1-203813255735",
-      "version": [
-        1,
-        0,
-        0
-      ]
+      "version": [1,0,0]
     },
     {
       "module_name": "@minecraft/server",

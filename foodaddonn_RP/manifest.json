@@ -4,37 +4,21 @@
     "name": "食べ物アドオン",
     "description": "新しい食料を追加します",
     "uuid": "ffa868c0-c7bd-4f5b-b6d1-203813255735",
-    "version": [
-      1,
-      0,
-      0
-    ],
-    "min_engine_version": [
-      1,
-      20,
-      0
-    ]
+    "version": [1,0,0],
+    "min_engine_version": [1,20,0]
   },
   "modules": [
     {
       "description": "Resources",
       "type": "resources",
       "uuid": "4b32204e-7342-4de9-b90e-070e06e9a3d1",
-      "version": [
-        1,
-        0,
-        0
-      ]
+      "version": [1,0,0]
     }
   ],
   "dependencies": [
     {
       "uuid": "451037eb-caf8-491d-bc75-589a1e20a654",
-      "version": [
-        1,
-        0,
-        0
-      ]
+      "version": [1,0,0]
     }
   ]
 }
