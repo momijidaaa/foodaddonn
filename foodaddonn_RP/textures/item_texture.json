@@ -2,8 +2,8 @@
     "resource_pack_name": "applpai",
     "texture_name": "atlas.items",
     "texture_data": {
-       "chocomint_ice": {
-        "textures": "textures/items/applpai.png"
+       "applpai": {
+        "textures": "textures/items/applpai"
       }
       }
 }
