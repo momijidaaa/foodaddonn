@@ -1,5 +1,11 @@
 import { world, system, Player } from "@minecraft/server";
 import * as ui from "@minecraft/server-ui";
+import { world, system, ItemStack, BlockPermutation, Player } from "@minecraft/server";
+
+  world.afterEvents.playerBreakBlock.subscribe(arg => {
+    arg.player.addExperience(10);
+    arg.player.sendMessage('§aかっこいい破壊だね');
+});
 
 world.afterEvents.itemUse.subscribe(arg => {
     const player = arg.source;
