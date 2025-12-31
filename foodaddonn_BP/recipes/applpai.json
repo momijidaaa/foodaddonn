@@ -2,7 +2,7 @@
     "format_version": "1.20.80",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "mc:applpai"
+            "identifier": "food:applpai"
         },
         "tags": [ "crafting_table" ],
         "assume_symmetry": false,
@@ -29,7 +29,7 @@
             }
         ],
         "result": {
-            "item": "mc:applpai",
+            "item": "food:applpai",
             "count": 1
         }
     }

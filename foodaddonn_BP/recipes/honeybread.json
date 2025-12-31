@@ -2,7 +2,7 @@
     "format_version": "1.20.80",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "mc:honeybread"
+            "identifier": "food:honeybread"
         },
         "tags": [ 
             "crafting_table", 
@@ -28,7 +28,7 @@
             }
         ],
         "result": {
-            "item": "mc:honeybread",
+            "item": "food:honeybread",
             "count": 1
         }
     }
