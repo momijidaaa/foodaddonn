@@ -6,7 +6,6 @@
     },
     "components": {
       "minecraft:display_name": "調理台",
-      "minecraft:geometry": "geometry.cooking_table",
       "minecraft:crafting_table": {
         "crafting_tags": ["cooking_table"]
       },
