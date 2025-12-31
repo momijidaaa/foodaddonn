@@ -4,6 +4,9 @@
   "texture_data": {
     "applpai": {
       "textures": "textures/items/applpai"
+    },
+    "honeybread" : {
+    "textures" :"textures/items/honeybread"
     }
   }
 }

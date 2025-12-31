@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:honeybread"
+        },
+        "tags": [ 
+            "crafting_table", 
+            "crafting_inventory" 
+        ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            " h",
+            "p "
+        ],
+        "key": {
+            "h": {
+                "item": "minecraft:honey_bottle"
+            },
+            "p": {
+                "item": "minecraft:bread"
+            }
+        },
+        "unlock": [
+            {
+                "context": "AlwaysUnlocked"
+            }
+        ],
+        "result": {
+            "item": "mc:honeybread",
+            "count": 1
+        }
+    }
+}
