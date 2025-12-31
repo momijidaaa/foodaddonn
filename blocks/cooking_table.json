@@ -6,9 +6,13 @@
     },
     "components": {
       "minecraft:display_name": "調理台",
+
+      "minecraft:unit_cube": {},
+
       "minecraft:crafting_table": {
         "crafting_tags": ["cooking_table"]
       },
+
       "minecraft:material_instances": {
         "up": {
           "texture": "cooking_table_top",
