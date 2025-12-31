@@ -1,22 +1,20 @@
 
 {
-  "format_version": "1.21.80",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "mc:applpai"
-      },
-        "menu_category": {
-    "category": "items",
-    "group": "itemGroup.name.food"
-  }
-
+      "identifier": "mc:applpai",
+      "menu_category":{
+        "group":"itemGroup.name.miscFood",
+        "category":"items"
+      }
     },
     "components": {
     "minecraft:max_stack_size":64,
     "minecraft:icon":"applpai",
     "minecraft:allow_off_hand":false,
     "minecraft:display_name":{
-      "value": "アップルパイ"
+      "value": " アップルパイ"
     },
     "minecraft:use_modifiers": {
       "use_duration": 1.6,
@@ -26,7 +24,9 @@
     "minecraft:food":{
       "can_always_eat": false,
       "nutrition" : 8,
-      "saturation_modifier": 0.8
+      "saturation_modifier": 0.8,
+      "using_converts_to": ""
     }
     }
   }
+}
