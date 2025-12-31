@@ -2,7 +2,7 @@
     "format_version": "1.20.80",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "mc:honeybread"
+            "identifier": "mc:toast"
         },
         "tags": [ 
             "crafting_table", 
@@ -11,15 +11,12 @@
         "assume_symmetry": false,
         "priority": 1,
         "pattern": [
-            " h",
-            "t "
+            "  ",
+            "p "
         ],
         "key": {
-            "h": {
-                "item": "minecraft:honey_bottle"
-            },
             "p": {
-                "item": "mc:toast"
+                "item": "minecraft:bread"
             }
         },
         "unlock": [
@@ -28,8 +25,8 @@
             }
         ],
         "result": {
-            "item": "mc:honeybread",
-            "count": 1
+            "item": "mc:toast",
+            "count": 3
         }
     }
 }

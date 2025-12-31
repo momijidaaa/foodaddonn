@@ -7,6 +7,9 @@
     },
     "honeybread" : {
     "textures" :"textures/items/honeybread"
+    },
+    "toast" :{
+      "textures" :"textures/items/toast"
     }
   }
 }
