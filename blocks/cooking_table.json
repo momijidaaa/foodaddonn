@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mc:cooking_table"
+    },
+    "components": {
+      "minecraft:display_name": "調理台",
+      "minecraft:geometry": "geometry.cooking_table",
+      "minecraft:crafting_table": {
+        "crafting_tags": ["cooking_table"]
+      },
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "cooking_table_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "cooking_table_bottom",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "cooking_table_side",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "cooking_table_side",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "cooking_table_side",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "cooking_table_side",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

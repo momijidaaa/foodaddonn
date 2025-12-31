@@ -4,7 +4,7 @@
         "description": {
             "identifier": "mc:applpai"
         },
-        "tags": [ "crafting_table" ],
+        "tags": [ "cooking_table" ],
         "assume_symmetry": false,
         "priority": 1,
         "pattern": [

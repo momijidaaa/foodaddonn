@@ -5,8 +5,7 @@
             "identifier": "mc:honeybread"
         },
         "tags": [ 
-            "crafting_table", 
-            "crafting_inventory" 
+            "cooking_table"
         ],
         "assume_symmetry": false,
         "priority": 1,
