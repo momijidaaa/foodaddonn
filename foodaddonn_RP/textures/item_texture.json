@@ -6,10 +6,10 @@
       "textures": "textures/items/applpai"
     },
     "honeybread" : {
-    "textures" :"textures/items/honeybread"
+    "textures" : "textures/items/honeybread"
     },
-    "toast" :{
-      "textures" :"textures/items/toast"
+    "toast" : {
+    "textures" : "textures/items/toast"
     }
   }
 }
