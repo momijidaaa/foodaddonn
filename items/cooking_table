@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mc:cooking_table",
+      "menu_category": {
+        "category": "construction",
+        "group": "itemGroup.name.construction"
+      }
+    },
+    "components": {
+      "minecraft:placeable_on": {
+        "block": ["mc:cooking_table"]
+      }
+    }
+  }
+}
