@@ -1,8 +1,11 @@
 {
-  "format_version": "1.21.10",
+  "format_version": "1.20.20",
   "minecraft:block": {
     "description": {
-      "identifier": "mc:cooking_table"
+      "identifier": "mc:cooking_table",
+      "menu_category": {
+        "category": "construction"
+      }
     },
     "components": {
       "minecraft:display_name": "調理台",
@@ -13,31 +16,25 @@
         "crafting_tags": ["cooking_table"]
       },
 
+      "minecraft:friction": 0.6,
+
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+
+      "minecraft:light_emission": 0,
+
       "minecraft:material_instances": {
-        "up": {
-          "texture": "cooking_table_top",
-          "render_method": "opaque"
-        },
-        "down": {
-          "texture": "cooking_table_bottom",
-          "render_method": "opaque"
-        },
-        "north": {
-          "texture": "cooking_table_side",
-          "render_method": "opaque"
-        },
-        "south": {
-          "texture": "cooking_table_side",
-          "render_method": "opaque"
-        },
-        "east": {
-          "texture": "cooking_table_side",
-          "render_method": "opaque"
-        },
-        "west": {
-          "texture": "cooking_table_side",
-          "render_method": "opaque"
-        }
+        "up": { "texture": "cooking_table_top" },
+        "down": { "texture": "cooking_table_bottom" },
+        "north": { "texture": "cooking_table_side" },
+        "south": { "texture": "cooking_table_side" },
+        "east": { "texture": "cooking_table_side" },
+        "west": { "texture": "cooking_table_side" }
       }
     }
   }
