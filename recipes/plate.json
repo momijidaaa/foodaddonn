@@ -1,0 +1,17 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crafting:recipe"
+        },
+        "tags": [
+            "furnace"
+        ],
+        "input": {
+            "item": "mc:clayboul"
+        },
+        "output": {
+            "id": "mc:plate"
+        }
+    }
+}
