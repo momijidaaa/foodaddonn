@@ -14,7 +14,7 @@
 "explosion_resistance": 3
 },
 "minecraft:destructible_by_mining": {
-"seconds_to_destroy": 4
+"seconds_to_destroy": 2
 },
 "minecraft:crafting_table": {
 "grid_size": 3,
