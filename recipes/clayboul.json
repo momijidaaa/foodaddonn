@@ -1,0 +1,30 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:clayboul"
+        },
+        "tags": [ "crafting_table" ],
+        "assume_symmetry": false,
+        "priority": 1,
+        "pattern": [
+            "   ",
+            "c c",
+            "ccc"
+        ],
+        "key": {
+            "c": {
+                "item": "minecraft:clay_ball"
+            }
+        },
+        "unlock": [
+            {
+                "context": "AlwaysUnlocked"
+            }
+        ],
+        "result": {
+            "item": "mc:clayboul",
+            "count": 1
+        }
+    }
+}
