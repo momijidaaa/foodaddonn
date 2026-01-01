@@ -10,8 +10,9 @@
         "assume_symmetry": false,
         "priority": 1,
         "pattern": [
-            "  ",
-            "p "
+            "   ",
+            " p ",
+            "   "
         ],
         "key": {
             "p": {
