@@ -5,7 +5,7 @@
             "identifier": "mc:cooked_horse_meat"
         },
         "tags": [
-            "furnace","campfire","soul_campfire"
+            "furnace","campfire","soul_campfire","smoker"
         ],
         "input": {
             "item": "mc:horse_meat"
