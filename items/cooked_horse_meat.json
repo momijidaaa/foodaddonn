@@ -3,24 +3,29 @@
   "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "mc:toast"
+      "identifier": "mc:cooked_horse_meat",
+      "menu_category":{
+        "group":"itemGroup.name.cookedFood",
+        "category":"nature"
+      }
     },
     "components": {
     "minecraft:max_stack_size":64,
-    "minecraft:icon":"toast",
+    "minecraft:icon":"cooked_horse_meat",
     "minecraft:allow_off_hand":false,
     "minecraft:display_name":{
-      "value": "食パン"
+      "value": "調理済みの馬肉"
     },
     "minecraft:use_modifiers": {
-      "use_duration": 1.2,
+      "use_duration": 1.6,
       "movement_modifier": 0.35
     },
     "minecraft:use_animation": "eat",
     "minecraft:food":{
       "can_always_eat": false,
-      "nutrition" : 2,
-      "saturation_modifier": 0.4
+      "nutrition" : 6,
+      "saturation_modifier": 0.9,
+      "using_converts_to": "minecraft:bone"
     }
     }
   }

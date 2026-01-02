@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "mc:cooked_horse_meat"
+        },
+        "tags": [
+            "furnace","campfire","soul_campfire"
+        ],
+        "input": {
+            "item": "mc:horse_meat"
+        },
+        "output": {
+            "item": "mc:cooked_horse_meat",
+            "count": 1
+        },
+        "cooking_time": 200,
+        "experience": 0.4
+    }
+}
