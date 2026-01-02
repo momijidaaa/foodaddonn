@@ -65,5 +65,5 @@
 
 
 
-> Discord連絡先: [@momiji_or_kaede](https://discord.com)
+> Discord連絡先: [@momiji_or_kaede](https://discord.gg/JtyRsQEbsf)
 ```
