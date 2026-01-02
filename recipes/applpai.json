@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "mc:applpai"
+            "identifier": "mc:appl_pie"
         },
         "tags": [ "cooking_table" ],
         "assume_symmetry": false,
@@ -29,7 +29,7 @@
             }
         ],
         "result": {
-            "item": "mc:applpai",
+            "item": "mc:appl_pie",
             "count": 1
         }
     }

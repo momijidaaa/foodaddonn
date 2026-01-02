@@ -2,7 +2,7 @@
   "format_version": "1.21.30",
   "minecraft:item": {
     "description": {
-      "identifier": "mc:applpai",
+      "identifier": "mc:appl_pie",
       "menu_category":{
         "category": "items",
         "group": "itemGroup.name.cooking"
