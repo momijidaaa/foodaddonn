@@ -1,49 +1,46 @@
 {
-"format_version": "1.20.20",
-"minecraft:block": {
-"description": {
-"identifier": "mc:cooking_table",
-"menu_category": {
-"category": "items"
-}
-},
-"components": {
-"minecraft:display_name": "料理作業台",
-"minecraft:friction": 0.6,
-"minecraft:destructible_by_explosion": {
-"explosion_resistance": 3
-},
-"minecraft:destructible_by_mining": {
-"seconds_to_destroy": 2
-},
-"minecraft:crafting_table": {
-"grid_size": 3,
-"crafting_tags": [
-"cooking_table"
-],
-"custom_description": "調理台"
-},
-"minecraft:light_emission": 0,
-"minecraft:material_instances": {
-"up": {
-"texture": "tyouridaiue"
-},
-"down": {
-"texture": "tyouridaisita"
-},
-"north": {
-"texture": "tyouridaiyoko"
-},
-"south": {
-"texture": "tyouridaiyoko"
-},
-"east": {
-"texture": "tyouridaiyoko"
-},
-"west": {
-"texture": "tyouridaiyoko"
-}
-}
-}
-}
+  "format_version": "1.20.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mc:cooking_table",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "料理作業台",
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "minecraft:crafting_table": {
+        "grid_size": 3,
+        "crafting_tags": ["cooking_table"],
+        "custom_description": "調理台"
+      },
+      "minecraft:light_emission": 0,
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "tyouridaiue"
+        },
+        "down": {
+          "texture": "tyouridaisita"
+        },
+        "north": {
+          "texture": "tyouridaiyoko"
+        },
+        "south": {
+          "texture": "tyouridaiyoko"
+        },
+        "east": {
+          "texture": "tyouridaiyoko"
+        },
+        "west": {
+          "texture": "tyouridaiyoko"
+        }
+      }
+    }
+  }
 }
