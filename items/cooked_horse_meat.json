@@ -24,7 +24,7 @@
     "minecraft:food":{
       "can_always_eat": false,
       "nutrition" : 12,
-      "saturation_modifier": 0.9,
+      "saturation_modifier": 0.8,
       "using_converts_to": "minecraft:bone"
     }
     }

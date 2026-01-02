@@ -23,7 +23,7 @@
     "minecraft:food":{
       "can_always_eat": false,
       "nutrition" : 16,
-      "saturation_modifier": 0.7
+      "saturation_modifier": 0.65
     }
     }
   }
