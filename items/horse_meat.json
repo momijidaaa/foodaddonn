@@ -1,19 +1,20 @@
+
 {
   "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "mc:applpai",
+      "identifier": "mc:horse_meat",
       "menu_category":{
         "group":"itemGroup.name.miscFood",
-        "category":"items"
+        "category":"nature"
       }
     },
     "components": {
     "minecraft:max_stack_size":64,
-    "minecraft:icon":"applpai",
+    "minecraft:icon":"horse_meat",
     "minecraft:allow_off_hand":false,
     "minecraft:display_name":{
-      "value": " アップルパイ"
+      "value": "生の馬肉"
     },
     "minecraft:use_modifiers": {
       "use_duration": 1.6,
@@ -22,8 +23,9 @@
     "minecraft:use_animation": "eat",
     "minecraft:food":{
       "can_always_eat": false,
-      "nutrition" : 8,
-      "saturation_modifier": 6.5
+      "nutrition" : 2,
+      "saturation_modifier": 0.6,
+      "using_converts_to": "minecraft:bone"
     }
     }
   }
