@@ -5,8 +5,8 @@
     "description": {
       "identifier": "mc:honeybread",
       "menu_category":{
-        "group":"itemGroup.name.miscFood",
-        "category":"items"
+        "category": "items",
+        "group": "itemGroup.name.cooking"
       }
     },
     "components": {

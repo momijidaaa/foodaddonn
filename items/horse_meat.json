@@ -5,8 +5,8 @@
     "description": {
       "identifier": "mc:horse_meat",
       "menu_category":{
-        "group":"itemGroup.name.miscFood",
-        "category":"nature"
+        "category": "items",
+        "group": "itemGroup.name.cooking"
       }
     },
     "components": {

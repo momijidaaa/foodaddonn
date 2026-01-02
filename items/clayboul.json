@@ -5,8 +5,8 @@
     "description": {
       "identifier": "mc:clayboul",
       "menu_category":{
-        "group":"itemGroup.name.anvil",
-        "category":"items"
+        "category": "items",
+        "group": "itemGroup.name.cooking"
       }
     },
 
