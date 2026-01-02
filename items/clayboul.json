@@ -3,7 +3,7 @@
   "format_version": "1.21.30",
   "minecraft:item": {
     "description": {
-      "identifier": "mc:clayboul",
+      "identifier": "mc:clay_bowl",
       "menu_category":{
         "category": "items",
         "group": "itemGroup.name.cooking"

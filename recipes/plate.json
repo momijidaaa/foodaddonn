@@ -8,7 +8,7 @@
             "furnace"
         ],
         "input": {
-            "item": "mc:clayboul"
+            "item": "mc:clay_bowl"
         },
         "output": {
             "item": "mc:plate",

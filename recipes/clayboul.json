@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "mc:clayboul"
+            "identifier": "mc:clay_bowl"
         },
         "tags": [ "crafting_table" ],
         "assume_symmetry": false,
@@ -23,7 +23,7 @@
             }
         ],
         "result": {
-            "item": "mc:clayboul",
+            "item": "mc:clay_bowl",
             "count": 1
         }
     }
