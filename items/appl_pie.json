@@ -10,10 +10,10 @@
     },
     "components": {
     "minecraft:max_stack_size":64,
-    "minecraft:icon":"applpai",
+    "minecraft:icon":"appl_pie",
     "minecraft:allow_off_hand":false,
     "minecraft:display_name":{
-      "value": " アップルパイ"
+      "value": "アップルパイ"
     },
     "minecraft:use_modifiers": {
       "use_duration": 1.6,
