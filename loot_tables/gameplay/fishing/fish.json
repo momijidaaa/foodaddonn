@@ -6,12 +6,17 @@
         {
           "type": "item",
           "name": "minecraft:fish",
-          "weight": 60
+          "weight": 40
         },
         {
           "type": "item",
           "name": "minecraft:salmon",
-          "weight": 25
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "mc:catfish",
+          "weight": 15
         },
         {
           "type": "item",
