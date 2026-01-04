@@ -1,0 +1,27 @@
+
+{
+  "format_version": "1.21.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mc:catfish"
+    },
+    "components": {
+    "minecraft:max_stack_size":64,
+    "minecraft:icon":"catfish",
+    "minecraft:allow_off_hand":false,
+    "minecraft:display_name":{
+      "value": "生のナマズ"
+    },
+    "minecraft:use_modifiers": {
+      "use_duration": 1.6,
+      "movement_modifier": 0.35
+    },
+    "minecraft:use_animation": "eat",
+    "minecraft:food":{
+      "can_always_eat": true,
+      "nutrition" : 2,
+      "saturation_modifier": 0.4
+    }
+    }
+  }
+}
