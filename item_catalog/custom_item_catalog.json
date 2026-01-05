@@ -1,0 +1,29 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:custom_item_catalog": {
+       "categories": [
+          {
+             "category_name": "items",
+             "groups": [
+                {
+                   "group_identifier": {
+                      "icon": "mc:cooking_table",
+                      "name": "mc:cooking_item"
+                   },
+                   "items": [
+                      "mc:cooking_table",
+                      "mc:catfish",
+                      "mc:honeybread",
+                      "mc:toast",
+                      "mc:plate",
+                      "mc:cooked_horse_meat",
+                      "mc:clay_bowl",
+                      "mc:appl_pie",
+                      "mc:cooked_catfish"
+                   ]
+                }
+             ]
+          }
+       ]
+    }
+ }
