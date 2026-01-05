@@ -2,16 +2,16 @@
     "format_version": "1.12",
     "minecraft:recipe_furnace": {
         "description": {
-            "identifier": "mc:cooked_horse_meat"
+            "identifier": "mc:cooked_catfish"
         },
         "tags": [
             "furnace","campfire","soul_campfire","smoker"
         ],
         "input": {
-            "item": "mc:horse_meat"
+            "item": "mc:catfish"
         },
         "output": {
-            "item": "mc:cooked_horse_meat",
+            "item": "mc:cooked_catfish",
             "count": 1
         },
         "cooking_time": 200,
