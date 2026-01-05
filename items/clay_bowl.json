@@ -5,8 +5,7 @@
     "description": {
       "identifier": "mc:clay_bowl",
       "menu_category":{
-        "category": "items",
-        "group": "itemGroup.name.cooking"
+        "category": "items"
       }
     },
 

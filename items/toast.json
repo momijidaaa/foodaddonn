@@ -4,8 +4,7 @@
     "description": {
       "identifier": "mc:toast",
       "menu_category": {
-        "category": "items",
-        "group": "itemGroup.name.cooking"
+        "category": "items"
       }
     },
     "components": {

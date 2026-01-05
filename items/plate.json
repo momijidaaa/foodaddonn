@@ -5,8 +5,7 @@
     "description": {
       "identifier": "mc:plate",
       "menu_category":{
-        "category": "items",
-        "group": "itemGroup.name.cooking"
+        "category": "items"
       }
     },
 

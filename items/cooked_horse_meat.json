@@ -5,8 +5,7 @@
     "description": {
       "identifier": "mc:cooked_horse_meat",
       "menu_category":{
-        "category": "items",
-        "group": "itemGroup.name.cooking"
+        "category": "items"
       }
     },
     "components": {

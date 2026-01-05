@@ -5,8 +5,7 @@
     "description": {
       "identifier": "mc:catfish",
     "menu_category":{
-        "category": "items",
-        "group": "itemGroup.name.cooking"
+        "category": "items"
       }
     },
     "components": {

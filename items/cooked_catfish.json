@@ -4,8 +4,7 @@
     "description": {
       "identifier": "mc:cooked_catfish",
       "menu_category": {
-        "category": "items",
-        "group": "itemGroup.name.cooking"
+        "category": "items"
       }
     },
     "components": {
