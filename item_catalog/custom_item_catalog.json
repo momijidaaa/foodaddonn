@@ -1,22 +1,30 @@
 {
-    "format_version": "1.21.60",
-    "minecraft:crafting_items_catalog": {
-       "categories": [
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "items",
+        "groups": [
           {
-             "category_name": "items",
-             "groups": [
-                {
-                   "group_identifier": {
-                      "icon": "mc:cooking_table"
-                      "name": "mc:foodaddon_item"
-                   },
-                   "items": [
-                    "mc:cooking_table",
-           
-                   ]
-                }
-             ]
+            "group_identifier": {
+              "icon": "mc:cooking_table",
+              "name": "mc:foodaddon_item"
+            },
+            "items": [
+              "mc:appl_pie",
+              "mc:cooking_table",
+              "mc:catfish",
+              "mc:clay_bowl",
+              "mc:cooked_catfish",
+              "mc:cooked_horse_meat",
+              "mc:honeybread",
+              "mc:horse_meat",
+              "mc:plate",
+              "mc:toast"
+            ]
           }
-       ]
-    }
- }
+        ]
+      }
+    ]
+  }
+}
