@@ -7,11 +7,11 @@
              "groups": [
                 {
                    "group_identifier": {
-                      "icon": "",
+                      "icon": "mc:cooking_table"
                       "name": "mc:foodaddon_item"
                    },
                    "items": [
-                    
+                    "mc:cooking_table",
            
                    ]
                 }
