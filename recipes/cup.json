@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mc:cup"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "assume_symmetry": false,
+    "priority": 1,
+    "pattern": [
+      "g g",
+      "g g",
+      "ggg"
+    ],
+    "key": {
+      "g": {
+        "item": "minecraft:glass"
+      }
+    },
+    "unlock": [
+      {
+        "context": "always"
+      }
+    ],
+    "result": {
+      "item": "mc:cup",
+      "count": 3
+    }
+  }
+}
