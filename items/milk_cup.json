@@ -1,0 +1,21 @@
+
+{
+  "format_version": "1.21.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mc:milk_cup",
+      "menu_category":{
+        "category": "items"
+      }
+    },
+
+    "components": {
+      "minecraft:max_stack_size":16,
+      "minecraft:icon": "milk_cup",
+      "minecraft:allow_off_hand":false,
+      "minecraft:display_name":{
+              "value": "牛乳入りコップ"
+      }
+    }
+  }
+}
