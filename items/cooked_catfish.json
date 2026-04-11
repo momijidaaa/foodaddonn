@@ -13,7 +13,7 @@
       "minecraft:icon": "cooked_catfish",
       "minecraft:allow_off_hand": false,
       "minecraft:display_name": {
-        "value": "調理されたナマズ"
+        "value": "ナマズのグリル"
       },
       "minecraft:use_modifiers": {
         "use_duration": 1.6,
