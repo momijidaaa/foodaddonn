@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mc:milk_cup"
+    },
+    "tags": [
+      "cooking_table"
+    ],
+    "assume_symmetry": false,
+    "priority": 1,
+    "pattern": [
+      "   ",
+      "cmc",
+      " c "
+    ],
+    "key": {
+      "c": {
+        "item": "mc:cup"
+      },
+     "m":{
+      "item": "minecraft:milk_bucket"
+     }
+    },
+    "unlock": [
+      {
+        "context": "always"
+      }
+    ],
+    "result": {
+      "item": "mc:milk_cup",
+      "count": 3
+    }
+  }
+}
