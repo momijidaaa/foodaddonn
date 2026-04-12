@@ -1,9 +1,8 @@
 import { world, system } from "@minecraft/server";
 
 system.runInterval(() => {
-  const dim = world.getDimension("overworld");
-
-  for (const player of dim.getPlayers()) {
+  for (const player of world.getPlayers()) { 
+    const dim = player.dimension;
     const p = player.location;
 
     const block = dim.getBlock({
