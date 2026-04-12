@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:block": {
     "description": {
-      "identifier": "mc:rice_crop",
+      "identifier": "mc:rice_crop_stage_0",
       "states": {
         "mc:crop_age": [0, 1, 2, 3]
       }
