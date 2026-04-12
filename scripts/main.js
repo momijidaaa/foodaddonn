@@ -1,12 +1,11 @@
 import * as server from "@minecraft/server";
+import "./crop.js";
 
 server.world.beforeEvents.worldInitialize.subscribe(init => {
-
   init.itemComponentRegistry.registerCustomComponent("mc:honeybread", {
     onConsume(arg) {
       const player = arg.source;
       if (!(player instanceof server.Player)) return;
-
       player.addEffect("speed", 60, {
         amplifier: 1,
         showParticles: true
@@ -18,12 +17,10 @@ server.world.beforeEvents.worldInitialize.subscribe(init => {
     onConsume(arg) {
       const player = arg.source;
       if (!(player instanceof server.Player)) return;
-
       player.addEffect("water_breathing", 100, {
         amplifier: 2,
         showParticles: true
       });
     }
   });
-
 });
