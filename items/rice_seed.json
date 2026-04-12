@@ -7,18 +7,24 @@
         "category": "items"
       }
     },
-   "components": {
-  "minecraft:display_name": {
-    "value": "稲の種"
-  },
-  "minecraft:icon": {
-    "texture": "rice_seed"
-  },
-  "minecraft:max_stack_size": 64,
-  "minecraft:seed": {
-    "crop_result": "mc:rice_crop_stage_0",
-    "plant_at": [
-      "minecraft:farmland"
-    ]
+
+    "components": {
+      "minecraft:display_name": {
+        "value": "稲の種"
+      },
+
+      "minecraft:icon": {
+        "texture": "rice_seed"
+      },
+
+      "minecraft:max_stack_size": 64,
+
+      "minecraft:seed": {
+        "crop_result": "mc:rice_crop",
+        "plant_at": [
+          "minecraft:farmland"
+        ]
+      }
+    }
   }
 }
