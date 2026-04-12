@@ -3,6 +3,10 @@
   "minecraft:block": {
     "description": {
       "identifier": "mc:rice_crop",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.crop"
+      },
       "states": {
         "mc:crop_age": [0, 1, 2, 3]
       }
