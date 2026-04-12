@@ -13,6 +13,7 @@
 
       "minecraft:material_instances": {
         "*": {
+          "texture": "rice_crop_stage_0",
           "render_method": "alpha_test"
         }
       },
