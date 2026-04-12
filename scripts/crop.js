@@ -1,4 +1,4 @@
-import { world, system } from "@minecraft/server";
+import { world, system, Player } from "@minecraft/server";
 
 system.runInterval(() => {
   for (const player of world.getPlayers()) { 
@@ -46,11 +46,12 @@ world.beforeEvents.itemUseOn.subscribe((event) => {
 
       if (player.getGameMode() !== "creative") {
         const inventory = player.getComponent("inventory").container;
+        const slot = player.selectedSlotIndex;
         if (itemStack.amount > 1) {
           itemStack.amount -= 1;
-          inventory.setItem(player.selectedSlotIndex, itemStack);
+          inventory.setItem(slot, itemStack);
         } else {
-          inventory.setItem(player.selectedSlotIndex, undefined);
+          inventory.setItem(slot, undefined);
         }
       }
     });
