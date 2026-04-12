@@ -16,14 +16,15 @@ system.runInterval(() => {
 
     if (block.typeId !== "mc:rice_crop") continue;
 
-    const state = block.permutation.getState("mc:crop_age");
+    const perm = block.permutation;
 
-    if (state === undefined) continue;
+    const age = perm.getState("mc:crop_age");
 
-    if (state < 3 && Math.random() < 0.1) {
-      block.setPermutation(
-        block.permutation.withState("mc:crop_age", state + 1)
-      );
+    if (typeof age !== "number") continue;
+
+    if (age < 3 && Math.random() < 0.1) {
+      const newPerm = perm.withState("mc:crop_age", age + 1);
+      block.setPermutation(newPerm);
     }
   }
 }, 40);
