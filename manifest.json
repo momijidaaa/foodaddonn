@@ -1,10 +1,10 @@
 {
   "format_version": 2,
   "header": {
-    "name": "食べ物アドオン",
+    "name": "食べ物アドオン BP",
     "description": "新しい食料を追加します",
     "uuid": "451037eb-caf8-491d-bc75-589a1e20a654",
-    "version": [1, 0, 1],
+    "version": [1, 0, 10],
     "min_engine_version": [1, 20, 80]
   },
   "modules": [
@@ -24,7 +24,7 @@
   "dependencies": [
     {
       "uuid": "ffa868c0-c7bd-4f5b-b6d1-203813255735",
-      "version": [1, 0, 0]
+      "version": [1, 0, 5]
     },
     {
       "module_name": "@minecraft/server",
