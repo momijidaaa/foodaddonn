@@ -3,9 +3,7 @@ import { world, system } from "@minecraft/server";
 system.runInterval(() => {
   const dim = world.getDimension("overworld");
 
-  const players = dim.getPlayers();
-
-  for (const player of players) {
+  for (const player of dim.getPlayers()) {
     const p = player.location;
 
     const block = dim.getBlock({
@@ -16,14 +14,16 @@ system.runInterval(() => {
 
     if (!block) continue;
 
-    if (block.typeId === "mc:rice_crop") {
-      const age = block.permutation.getState("mc:crop_age");
+    if (block.typeId !== "mc:rice_crop") continue;
 
-      if (age < 3 && Math.random() < 0.1) {
-        block.setPermutation(
-          block.permutation.withState("mc:crop_age", age + 1)
-        );
-      }
+    const state = block.permutation.getState("mc:crop_age");
+
+    if (state === undefined) continue;
+
+    if (state < 3 && Math.random() < 0.1) {
+      block.setPermutation(
+        block.permutation.withState("mc:crop_age", state + 1)
+      );
     }
   }
 }, 40);
