@@ -4,7 +4,7 @@
     "description": {
       "identifier": "mc:rice_seed",
       "menu_category": {
-        "category": "item"
+        "category": "items"
       }
     },
    "components": {
