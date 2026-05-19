@@ -6,10 +6,8 @@
         "category_name": "items",
         "groups": [
           {
-            "group_identifier": {
-              "icon": "mc:cooking_table",
-              "name": "mc:foodaddon_item"
-            },
+            "icon": "mc:cooking_table",
+            "group": "mc:foodaddon_item",
             "items": [
               "mc:appl_pie",
               "mc:cooking_table",
